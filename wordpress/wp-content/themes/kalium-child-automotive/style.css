@@ -1,0 +1,1970 @@
+/*
+Theme Name: Kalium - Automotive Theme
+Theme URI: https://laborator.co/themes/kalium/
+Author: Laborator
+Author URI: https://laborator.co/
+Description: Start creating that amazing website that you have always wanted, only with Kalium — Connect with Laborator on: <a href="https://themeforest.net/user/laborator">Envato</a> &bull; <a href="https://twitter.com/thelaborator">Twitter</a> &bull; <a href="https://www.facebook.com/laboratorcreative">Facebook</a> &bull; <a href="https://www.instagram.com/laboratorcreative/">Instagram</a>
+Version: 1.0
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: kalium
+Text Domain: kalium
+*/
+/* ===========================================================
+Custom modification only for AUTOMOTIVE Demo - START
+=========================================================== */
+/* Header: Background Color */
+header.main-header {
+	background: #FFF;
+}
+
+/* Header: Menu Buy Button */
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-main div.menu > ul > li.special-button > a, 
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-main ul.menu > li.special-button > a {
+	color: #d90707;
+	border: 1px solid #d90707;
+	padding: 0px 3px;
+	border-radius: 3px;
+}
+
+/* Header: Menu Buy Button on Hover */
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-main div.menu > ul > li.special-button > a:hover, 
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-main ul.menu > li.special-button > a:hover {
+	color: #FFF;
+	background: #d90707;
+}
+
+/* Header: Menu Item Spacing */
+.main-header.menu-type-standard-menu .standard-menu-container div.menu>ul>li+li, 
+.main-header.menu-type-standard-menu .standard-menu-container ul.menu>li+li{
+	margin-left: 30px;
+}
+
+/* Header: Current Menu Item Underline */
+.main-header.menu-type-standard-menu .standard-menu-container ul li.current-menu-item>a:after,
+.main-header.menu-type-standard-menu .standard-menu-container ul li.current_page_parent>a:after {
+	background: #d90707 !important;
+	display: block;
+	height: 2px;
+	border: none;
+	width: 100%;
+}
+
+/* Header: Submenu Border Radius */
+.sub-menu {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* Header: Menu Buy Button */
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-main div.menu > ul > li.buy > a, 
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-main ul.menu > li.buy > a {
+	color: #d90707;
+	border: 1px solid #d90707;
+	padding: 0px 3px;
+	border-radius: 3px;
+}
+
+/* Header: Menu Buy Button on Hover */
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-main div.menu > ul > li.buy > a:hover, 
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-main ul.menu > li.buy > a:hover {
+	color: #FFF;
+	background: #d90707;
+}
+
+/* Header: Menu Item Spacing */
+.main-header.menu-type-standard-menu .standard-menu-container div.menu>ul>li+li, 
+.main-header.menu-type-standard-menu .standard-menu-container ul.menu>li+li{
+	margin-left: 30px;
+}
+
+/* Text: Bold Text Color */
+b, strong {
+	color: #222;
+}
+
+/* Text: Link Hover Color */
+.site-footer a:hover, 
+.blog-posts .post-item .post-details .post-title a:hover,
+.single-post .post .post-meta a:hover,
+.wrapper a:hover,
+.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-content-container .blog-post-title a:hover,
+body a:hover {
+	color: #D90707;
+}
+
+/* General: Border Radius */
+.radius {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* General: Box Shadow */
+.box-shadow {
+	-webkit-box-shadow: 0px 0px 70px rgba(0,0,0,0.1), 0px 5px 5px -5px rgba(0,0,0,.1);
+	box-shadow: 0px 0px 70px rgba(0,0,0,0.1), 0px 5px 5px -5px rgba(0,0,0,.1);
+}
+
+/* General: Page Title Banner Spacing */
+.page-title-banner {
+	padding: 25px 0;
+}
+
+/* General: Remove iframe Border */
+iframe {
+	border: none;
+}
+
+/* General: Hide Underline */
+.site-footer a:after, 
+.wrapper a:after {
+	display: none;
+}
+
+/* General: Background Color */
+.woocommerce .wrapper,
+.blog .wrapper,
+.archive .wrapper,
+.single-post .wrapper {
+	background: #f3f1f1;
+}
+
+/* General: Heading Top Spacing */
+.page-heading {
+	margin-top: 40px;
+}
+
+/* Forms: Background Color and Border Radius */
+.labeled-input-row,
+.labeled-textarea-row {
+	padding: 3px 14px;
+	background: #EEE;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* Forms: Button */
+.button {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* Forms: Reset Borders */
+.labeled-input-row label,
+.labeled-input-row input, 
+.labeled-textarea-row label {
+	border-bottom: none;
+}
+
+/* Forms: Reset Style */
+.labeled-textarea-row textarea {
+	padding-top: 0px;
+	line-height: 1.5;
+	background-image: none;
+}
+
+/* Homepage: Client Logo Width */
+.how-it-works-images img {
+	max-width: 128px;
+}
+
+/* Homepage: Client Logo Width */
+.client-logo img {
+	width: 50%;
+}
+
+/* Homepage: Client Logo Spacing */
+.client-logo img {
+	padding: 20px 0;
+}
+
+/* Homepage: Blog Posts Remove Border */
+.wpb_wrapper .lab-blog-posts .blog-post-entry {
+	border: none;
+}
+
+/* Homepage: Blog Show More Button Remove Margin */
+.show-more {
+	margin-top: 0px;
+}
+
+/* Homepage: Blog Show More Button Style */
+.show-more .reveal-button {
+	-webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+	box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+	background: #FFF;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border: none;
+}
+
+/* Homepage: Car Filter Reset Styling */
+.home .prdctfltr_wc.prdctfltr_wc_regular {
+	padding: 0px !important;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/* Homepage: Car Filter Border Radius */
+.home .prdctfltr_wc.prdctfltr_woocommerce.pf_select .prdctfltr_filter .prdctfltr_regular_title {
+	border-radius: 3px !important;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* Homepage: Car Filter Container Width */
+.parent--homepage-car-selector {
+	z-index: 99999 !important;
+}
+
+/* Homepage: Car Filter Container Width */
+.homepage-car-selector {
+	overflow: visible !important;
+}
+
+/* Homepage: Car Filter Box Shadow */
+.homepage-filter {
+	margin-top: -70px;
+	background: #FFF;
+	padding: 10px 20px;
+	-webkit-box-shadow: 0px 0px 70px rgba(0,0,0,0.1), 0px 5px 5px -5px rgba(0,0,0,.1);
+	box-shadow: 0px 0px 70px rgba(0,0,0,0.1), 0px 5px 5px -5px rgba(0,0,0,.1);
+}
+
+/* Homepage: Car Filter Box Shadow */
+.homepage-filter .vc_column-inner {
+	padding-top: 0px !important;
+}
+
+/* Homepage: Car Filter Button Position */
+.homepage-filter .prdctfltr_wc .prdctfltr_buttons {
+	position: absolute;
+	top: -100px;
+	right: 0 ;
+}
+
+/* Homepage: Steps */
+.homepage-steps {
+ 	padding: 50px 0px 35px 0px;
+}
+
+/* Homepage: Electric Car Icon Size */
+.electric-icon {
+	width: 64px;
+	max-width: 64px;
+	display: block;
+	float: left;
+}
+
+/* Homepage: Electric Car Icon Size for Image */
+.electric-icon img {
+	width: 64px;
+	max-width: 64px;
+}
+
+/* Homepage: Blog Posts More Link */
+.more-link {
+	border: none;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	min-width: auto;
+}
+
+/* About: Carousel Rounded */
+.carousel-rounded .wpb_wrapper .vc_images_carousel .vc_item img {
+	border-radius: 3px !important;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	overflow: hidden;
+}
+
+/* Blog: Post */
+.blog-posts .has-post-thumbnail .post-item {
+	-webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+	box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);		
+	background: #FFF;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+/* Blog: Post Remove Format Icon */
+.blog-posts .post-item .post-thumbnail .post-format-icon {
+	display: none;
+}
+
+/* Blog: Post Hover Color Distanced */
+.blog-posts .post-item .post-thumbnail .post-hover,
+.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-image a .hover-display {
+	background-color: rgba(255,255,255,0.85);
+}
+
+/* Blog: Post Hover Color Distanced */
+.blog-posts .post-item .post-thumbnail .post-hover.post-hover--distanced,
+.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-image a .image-placeholder,
+.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-image a .hover-display.with-spacing {
+	background-color: rgba(255,255,255,0.85);
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* Blog: Post Hover Color Full Cover No Opacity */
+.blog-posts .post-item .post-thumbnail .post-hover.post-hover--no-opacity,
+.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-image a .hover-display.no-opacity {
+	background-color: rgba(255,255,255,1);
+}
+
+/* Blog: Square Posts Layout No Thumbnail*/
+.blog-posts .post-item.template-square.columned .post-details {
+	padding: 20px 25px 0 25px;
+}
+
+/* Blog: Square Posts Layout */
+.blog-posts .format-video .post-item.template-square.columned .post-details,
+.blog-posts .has-post-thumbnail .post-item.template-square.columned .post-details {
+	padding: 20px 25px 0 0;
+}
+
+/* Blog: Square Posts Meta Layout */
+.blog-posts .post-item.template-square.columned .post-details .post-meta {
+	display: inline-block;
+	margin-right: 20px
+}
+
+/* Blog: Rounded Posts Layout */
+.blog-posts .post-item.template-rounded.columned {
+	background: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/* Blog: Rounded Posts Layout Hover */
+.blog-posts .post-item.template-rounded.columned {
+	background: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/* Blog: Rounded Posts Layout Hover */
+.blog-posts .post-item.template-rounded .post-thumbnail .post-hover {
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+/* Blog: Rouneded Posts Meta Layout */
+.blog-posts .post-item.template-rounded.columned .post-meta {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+/* Blog Post: Comment Styling */
+.single-post .post-comments--list .comment {
+	background: #FFF;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+	box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+	padding: 25px;
+	margin: 10px 0;
+}
+
+/* Blog Post: Comment In Reply to Color */
+.single-post .post-comments--list .comment .commenter-details .in-reply-to span {
+	color: #222;
+}
+
+/* Blog Post: Comments Spacing */
+.single-post .post-comments {
+	padding: 20px 0;
+	background: transparent;
+}
+
+/* Blog Post: Comments Reply Spacing and Remove Background */
+.single-post .post-comments--list .comment-respond {
+	padding: 0px;	
+	background: none;
+}
+
+/* Blog Post: Comments Remove Border */
+.single-post .post-comments:before {
+	border: none;
+}
+
+/* Blog Post: Comments Reply Title Bottom Spacing */
+.single-post .post-comments--list .comment-respond .comment-reply-title {
+	bottom: 20px
+}
+
+/* Blog Post: Comments Name Color */
+.single-post .post-comments--list .comment .commenter-details .name a {
+	color: #D90706;
+}
+
+/* Blog Post: Comments Last Child Remove Spacing */
+.single-post .post-comments--list .comment .commenter-details .comment-text p:last-child {
+	margin-bottom: 0px;
+}
+
+/* Blog Post: Tags Styling */
+.widget.widget_tag_cloud a,
+.single-post .post .post-tags a {
+	color: #FFF;
+	background: #d90c0e;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* Blog Post: Tags Styling on Hover */
+.widget.widget_tag_cloud a:hover,
+.single-post .post .post-tags a:hover {
+	background: #222;
+	color: #FFF;
+}
+
+/* Blog: Post */
+.blog-posts .post-item,
+.wpb_wrapper .lab-blog-posts .blog-post-entry {
+	-webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+	box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);		
+	background: #FFF;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+/* Blog: Post Details Border */
+.blog-posts .post-item.template-standard .post-details, 
+.blog-posts .post-item.template-standard .post-thumbnail {	
+	border: 0px;
+}
+
+/* Blog: Post Border Radius */
+.blog-posts .post-item.template-standard .post-details,
+.blog-posts .post-item.template-standard .post-thumbnail,
+.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-image {
+	overflow: hidden;	
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+/* Blog: Post Border Radius Classic */
+.blog--has-sidebar .blog-posts .post-item.columned .post-thumbnail {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	overflow: hidden;
+}
+
+/* Blog Post: Link Color */
+.single-post .post-formatting a {
+	color: #d90707;
+}
+
+/* Blog Post: Top Spacing */
+.single-post .single-post {
+	padding-top: 35px;
+}
+/* Car: Product Meta Tags */
+.woocommerce .single-product .summary .product_meta>span {
+	padding: 7px 0;
+	text-transform: uppercase;
+	font-size: 12px;
+	border-top: 1px dotted #CCC;
+}
+
+/* Car: Price Spacing Top and Bottom */
+.woocommerce .single-product .summary>.price {
+	margin: 20px 0;
+}
+
+/* Car: Variable Product Label */
+.woocommerce .single-product .summary .variations .label label {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+/* Car: Variable Product Color*/
+.woocommerce .single-product .select-option-ui {
+	color: #222;
+}
+
+/* Car: Quantity Width*/
+.woocommerce .item-info .group_table .quantity, 
+.woocommerce .item-info form.cart .quantity {
+	width: 60px
+}
+
+/* Car: Image Border Radius */
+.post-content.post-formatting img {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* Car: Remove Bottom Spacing */
+.single-product .woocommerce.page-container {
+	margin-bottom: 0px;
+}
+
+/* Car: Remove Bottom Spacing */
+.woocommerce .single-product .product {
+	margin-bottom: 0px;
+}
+
+/* Car: Video Border Radius */
+.post-content.post-formatting .video-as-holder.enabled .video-aspect-ratio+*, 
+.post-content.post-formatting .video-as-holder.enabled .video-js, 
+.post-content.post-formatting .video-as-holder.enabled iframe {
+	overflow: hidden;
+	border-radius: 3px !important;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* Car: Sidebar Car Category Spacing */
+.prdctfltr_wc .prdctfltr_side_lables.prdctfltr_terms_customized.prdctfltr_terms_customized_image .prdctfltr_checkboxes label{
+	margin: 15px 0;
+}
+
+/* Car: Sidebar Car Category Car Size */
+.prdctfltr_wc .prdctfltr_terms_customized.prdctfltr_terms_customized_image-text .prdctfltr_customize_block .prdctfltr_customize_image_text {
+	width: 65px;
+}
+
+/* Car: Sidebar Car Category Car Size */
+.prdctfltr_wc .prdctfltr_side_lables.prdctfltr_terms_customized.prdctfltr_terms_customized_image .prdctfltr_customize_block .prdctfltr_customize_image_text img {
+    width: 65px !important;
+    height: auto !important;
+    border: none !important;
+}
+
+/* Car: Sidebar Car Category Active */
+.prdctfltr_wc .prdctfltr_terms_customized.prdctfltr_terms_customized_image-text label.prdctfltr_active .prdctfltr_customize_block .prdctfltr_customize_image_text img {
+	opacity: 0.35;
+}
+
+.prdctfltr_wc .prdctfltr_side_lables.prdctfltr_terms_customized.prdctfltr_terms_customized_image label.prdctfltr_active .prdctfltr_customize_block .prdctfltr_customize_image_text img {
+	border: none;
+    box-shadow: unset !important;
+}
+
+/* Car: Sidebar Categories Selected */
+.prdctfltr_wc .prdctfltr_terms_customized.prdctfltr_terms_customized_image-text .prdctfltr_add_scroll.prdctfltr_down label.prdctfltr_active .prdctfltr_customize_block .prdctfltr_customize_image_text img {
+	opacity: 1;
+}
+
+/* Car: Sidebar Categories Not Selected */
+.prdctfltr_wc .prdctfltr_terms_customized.prdctfltr_terms_customized_image-text .prdctfltr_add_scroll.prdctfltr_down label .prdctfltr_customize_block .prdctfltr_customize_image_text img {
+	opacity: 0.35;
+}
+
+/* Car: Sidebar Brands Selected */
+.prdctfltr_wc .prdctfltr_terms_customized_image .prdctfltr_add_scroll.prdctfltr_down .prdctfltr_checkboxes label .prdctfltr_customize_image img {
+	opacity: 0.35;
+}
+
+/* Car: Attributes Link Color */
+.shop_attributes a {
+	color: #666;
+}
+
+/* Car: Attributes Link Color on Hover */
+.shop_attributes a:hover {
+	color: #d80707;
+	text-decoration: underline;
+}
+
+/* Car: Attributes - Hide title */
+.woocommerce .woocommerce-tabs .entry-content h2 {
+	display: none;
+}
+
+/* Car: Attributes - Feature color */
+.shop_attributes th {
+	color: #222;
+}
+
+/* Car: Attributes - Table styling */
+.shop_attributes td,
+.shop_attributes th {
+	padding: 10px 0px;
+}
+
+/* Car: Attributes - Table styling */
+.shop_attributes tr {
+	border-bottom: 1px solid #DDD;
+}
+
+/* Car: Attributes - Hide border for last feature */
+.shop_attributes tr:last-child {
+	border-bottom: none;
+}
+
+/* Car: Addition Info - Remove Top Margin */
+.shop_attributes {
+	margin-top: 0px !important;
+}
+
+/* Car: Tabs styling */
+.woocommerce .woocommerce-tabs .entry-content {
+	background: #FFF;
+	-webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+	box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+	/*padding-left: 0px;*/
+	/*padding-right: 0px;*/
+}
+
+/* Car: Tabs styling */
+.woocommerce .woocommerce-tabs .tabs li {
+	background: transparent;
+	top: 0;
+	margin-right: 0px;
+	border-bottom: 0px;
+	border-right: 0px;
+}
+
+/* Car: Tabs Active Tab */
+.woocommerce .woocommerce-tabs .tabs li.active {
+	background: #FFF;
+	border-bottom-color: #FFF;
+}
+
+/* Car: Car Box */
+.woocommerce .products .product.catalog-layout-default .item-info {
+	background: #FFF;
+	padding: 15px 20px;
+	margin:0px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	-webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+	box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+}
+
+/* Car: Car Box Hover */
+.woocommerce .products .product.catalog-layout-default:hover .item-info {
+	-webkit-box-shadow: 0 10px 30px -10px rgba(171, 171, 171, 0.9);
+	box-shadow: 0 10px 30px -10px rgba(171, 171, 171, 0.9);
+}
+
+/* Car: Car Box Image Radius */
+.woocommerce .products .product.catalog-layout-default .product-images img {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+/* Car: Car Box Image Radius */
+.woocommerce .products .product.catalog-layout-default .product-images .image-placeholder {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+/* Car: Gallery Previous Border Radius */
+.woocommerce .single-product-images .kalium-woocommerce-product-gallery .main-product-images.carousel.flickity-enabled:hover .flickity-prev-next-button {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* Car: Gallery Image height */
+.woocommerce .single-product-images .kalium-woocommerce-product-gallery a img {
+	height: auto;
+}
+
+/* Car: Gallery Next-Prev Arrow Icon Color and Size */
+.woocommerce .single-product .kalium-woocommerce-product-gallery .main-product-images .nextprev-arrow i, 
+.woocommerce .single-product .kalium-woocommerce-product-gallery .thumbnails .nextprev-arrow i {
+	color: #FFF !important;
+	font-size: 54px;
+}
+
+/* Car: Content Styling */
+.woocommerce .product.catalog-layout-default .item-info {
+	padding: 30px 45px;
+	background: #FFF;
+	-webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+	box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+	margin: 0px;
+	border-bottom-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-bottom-right-radius: 3px;
+}
+
+/* Car: Content Styling */
+.woocommerce .product.catalog-layout-default .summary.entry-summary.item-info,
+.woocommerce .single-product .summary {
+	padding: 30px 45px;
+	background: #FFF;
+	-webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+	box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+	margin: 0px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* Car: Tabs Styling Active Tab */
+.woocommerce .woocommerce-tabs .tabs li.active {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+/* Car: Reviews */
+.woocommerce .woocommerce-Reviews #review_form_wrapper {
+	background: transparent;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Car: Car Price for Smaller Devices */
+@media screen and (max-width: 768px) {
+	.woocommerce .product.catalog-layout-default .item-info .item-info-row>.price-column {
+		margin-top: 0px;
+	}
+}
+
+/* Price area: Mobile */
+@media screen and (max-width: 768px) {
+	.woocommerce .product.catalog-layout-default .item-info .item-info-row>.price-column, 
+	.woocommerce .product.catalog-layout-default .item-info .item-info-row>.title-column {
+		width: auto;
+	}
+}
+
+/* Car: Category */
+.woocommerce .shop-categories .product-category a {
+	background: #fff !important;
+	-webkit-box-shadow: 0 7px 10px -10px rgba(171, 171, 171, 0.7);
+	box-shadow: 0 7px 10px -10px rgba(171, 171, 171, 0.7);
+	-webkit-transition: all 0.55s ease;
+	transition: all 0.55s ease;
+	padding: 25px 15px 10px 15px; 
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* Car: Category */
+.woocommerce .shop-categories .product-category a:hover {
+	-webkit-transform: translateY(-5px);
+	transform: translateY(-5px);
+	-webkit-box-shadow: 0 10px 20px -10px rgba(171, 171, 171, 0.9);
+	box-shadow: 0 10px 20px -10px rgba(171, 171, 171, 0.9);
+}
+
+/* Car: Category Title */
+.woocommerce .shop-categories .product-category .woocommerce-loop-category__title, 
+.woocommerce .shop-categories .product-category h3 {
+	transform: none;
+	background: none;
+	padding: 0;
+	position: relative;
+	transform: none;
+	background: none;
+	top: 0;
+	left: 0;
+	padding-top: 15px;
+}
+
+/* Car: Car Price */
+.woocommerce .product.catalog-layout-default .item-info .item-info-row>.price-column {
+	position: absolute;
+	top: 0;
+	left: 15px;
+	padding: 3px 6px 3px 10px;
+	border-top-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background: #000;
+	z-index: 100;
+}
+
+/* Car: Car Default Layout Margin Bottom */
+.woocommerce .product.catalog-layout-default {
+	margin-bottom: 30px;
+}
+
+/* Car: Car Price skew area */
+.woocommerce .product.catalog-layout-default .item-info .item-info-row>.price-column:after {
+	position: absolute;
+	content: '';
+	display: block;
+	top: 0;
+	right: -5px;
+	height: 100%;
+	width: 10px;
+	background-color: #000;
+	-webkit-transform: skew(-14deg,0deg);
+	transform: skew(-14deg,0deg);
+}
+
+/* Car: Car Price Text Color */
+.woocommerce .product.catalog-layout-default .item-info .item-info-row>.price-column span {
+	color: #FFF;
+}
+
+/* Car: Car Price Remove Spacing */
+.woocommerce .product.catalog-layout-default .item-info .price del {
+	margin: 0px;
+}
+
+/* Car: Car Price Remove Spacing and Set Color */
+.woocommerce .product.catalog-layout-default .item-info .price del span {
+	margin: 0px !important;
+	color: #666 !important;
+}
+
+/* Car: Car Price Remove Border */
+.woocommerce .product.catalog-layout-default .item-info .price ins, 
+.woocommerce .product.catalog-layout-default .item-info .price>.amount {
+	border-bottom: none;
+}
+
+/* Car: Sale, Out of Stock and Featured Button */
+.woocommerce .product .onsale, 
+.woocommerce .product .onsale.oos, 
+.woocommerce .product .onsale.featured {
+	line-height: normal !important;
+	height: auto;
+	width: auto;
+	padding: 2px 4px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-transform: skew(-10deg);
+	transform: skew(-10deg); 
+	top: -8px;
+	right: 5px;
+	-webkit-box-shadow: -2px 3px 10px rgba(0,0,0,0.2);
+	box-shadow: -2px 3px 10px rgba(0,0,0,0.2);
+}
+
+/* Car: Gallery Border Radius */
+.woocommerce .single-product .kalium-woocommerce-product-gallery a img {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* Car: Review Styling */
+.woocommerce .woocommerce-Reviews #comments .commentlist .comment, 
+.woocommerce .woocommerce-Reviews #comments .commentlist .review {
+	position: relative;
+	border-bottom: 1px solid #EEE;
+	padding: 30px 0;
+	clear: both;
+}
+
+/* Cars: Gallery Next Border Radius */
+.woocommerce .products .product .product-images .gallery-arrow.gallery-next {
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+/* Cars: Gallery Previous Border Radius */
+.woocommerce .products .product .product-images .gallery-arrow.gallery-prev {
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+/* Cars: Gallery Arrow Background Color */
+.woocommerce .products .product .product-images .gallery-arrow.gallery-next, 
+.woocommerce .products .product .product-images .gallery-arrow.gallery-prev {
+	background: rgba(0,0,0,.4);
+}
+
+/* Cars: Gallery Arrow Color */
+.woocommerce .products .product .product-images .gallery-arrow.gallery-next, 
+.woocommerce .products .product .product-images .gallery-arrow.gallery-prev {
+	color: #FFF;
+	padding: 0px;
+}
+
+/* Cars: Gallery Change Next Arrow Icon */
+.woocommerce .single-product-images .kalium-woocommerce-product-gallery .flickity-enabled .flickity-prev-next-button.next:before,
+.woocommerce .products .product .product-images .gallery-arrow.gallery-next .flaticon-arrow413:before {
+	content: "\e009" !important;
+}
+
+/* Cars: Gallery Change Prev Arrow Icon */
+.woocommerce .single-product-images .kalium-woocommerce-product-gallery .flickity-enabled .flickity-prev-next-button:before,
+.woocommerce .products .product .product-images .gallery-arrow.gallery-prev .flaticon-arrow427:before {
+	content: "\e007" !important;
+}
+
+/* Cars: Gallery Arrow Background Color */
+.woocommerce .single-product-images .kalium-woocommerce-product-gallery .main-product-images.carousel.flickity-enabled .flickity-prev-next-button {
+    background: rgba(0,0,0,.4);  
+    color: #FFF;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 0px;
+}
+
+/* Cars: Gallery Arrow Icon Size */
+.woocommerce .single-product-images .kalium-woocommerce-product-gallery .flickity-enabled .flickity-prev-next-button:before {
+  	font-size: 54px;
+  	line-height: 1;
+}
+
+/* Cars: Distanced Layout Border Radius */
+.woocommerce .product.catalog-layout-distanced-centered .product-internal-info {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* Cars: Remove Background */
+.woocommerce {
+	background: transparent;
+}
+
+/* Cars: Default Catalog Layout Title Link Color */
+.woocommerce .product.catalog-layout-default .item-info h3 a {
+	color: #222;
+}
+
+/* Cars: Default Catalog Layout Title Link Hover Color */
+.woocommerce .product.catalog-layout-default .item-info h3 a:hover {
+	color: #d80707;
+}
+
+/* Cars: Default Catalog Layout Transition */
+.woocommerce .products .product.catalog-layout-default {
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+/* Cars: Hide Page Title */
+.woocommerce-page .page-title {
+	display: none;
+}
+
+/* Cars: Add To Cart Button */
+.woocommerce .product .item-info .product-loop-add-to-cart-container .product-category.category-hoverable+.add-to-cart-link a {
+	background: #EEE;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	padding: 3px 8px;
+}
+
+/* Cars: Add To Cart Button Added */
+.woocommerce .product .item-info .product-loop-add-to-cart-container .product-category.category-hoverable+.add-to-cart-link .add_to_cart_button.added {
+	background: #2ECC71 !important;
+	color: #FFF;
+}
+
+/* Cars: Minimal and Full Image Layout Padding */
+.woocommerce .product.catalog-layout-full-bg .product-internal-info,
+.woocommerce .product.catalog-layout-transparent-bg .product-internal-info {
+	padding: 20px 25px;
+}
+
+/* Cars: Minimal Catalog Layout */
+.woocommerce .product.catalog-layout-transparent-bg .product-internal-info {
+	padding: 15px 25px;
+	padding-top: 0px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(15%, rgba(238, 238, 238,1)), color-stop(75%, rgba(238, 238, 238,0)));
+	background: linear-gradient(to bottom, rgba(238, 238, 238,1) 15%, rgba(238, 238, 238,0) 75%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); 
+}
+
+/* Cars: Images Border Radius */
+.woocommerce .product.catalog-layout-distanced-centered .product-images,
+.woocommerce .product.catalog-layout-transparent-bg .product-images,
+.woocommerce .product.catalog-layout-full-bg .product-images {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* Cars: Minimal Catalog Layout Spacing */
+.woocommerce .product.catalog-layout-transparent-bg .item-info .product-bottom-details {
+	bottom: 15px;
+	left: 25px;
+	right: 25px;	
+}
+
+/* Cars: Full Image Layout Spacing */
+.woocommerce .product.catalog-layout-full-bg .item-info .product-bottom-details {
+	bottom: 20px;
+	left: 25px;
+	right: 25px;
+}
+
+/* Sidebar: Box Shadow */
+.blog-archive--widgets.widget-area--skin-bordered .widget,
+.widget-area--skin-background-fill,
+.single-post--widgets.widget-area--skin-bordered .widget,
+.widget-area--skin-bordered .prdctfltr-widget .prdctfltr_wc .prdctfltr_woocommerce_ordering .prdctfltr_filter {
+	-webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+	box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+}
+
+/* Sidebar: Styling */
+.blog-archive--widgets.widget-area--skin-background-fill, 
+.widget-area--skin-bordered .widget,
+.widget-area--skin-bordered .prdctfltr-widget .prdctfltr_wc .prdctfltr_woocommerce_ordering .prdctfltr_filter,
+.single-post--widgets.widget-area--skin-background-fill {
+	background: #FFF;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 20px 25px;
+	margin-bottom: 25px;
+}
+
+/* Sidebar: Fill — Reset Padding and Background */
+.blog-archive--widgets.widget-area--skin-background-fill .widget,
+.single-post--widgets.widget-area--skin-background-fill .widget {
+	padding: 0px;
+	border-radius: 0px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	background: none;
+}
+
+/* Sidebar: Bordered Box Styling */
+.widget-area--skin-bordered .widget {
+	border: 0;
+}
+
+/* Sidebar: Box - When Background Fill option is selected */
+.widget-area--skin-background-fill .widget {
+	background-color: #fff;
+}
+
+/* Sidebar: Title Reduce Margin Bottom */
+.widget-area .widget-title, .widget-area .widgettitle {
+	margin-bottom: 15px;
+	border-bottom: 1px solid #EEE;
+	padding-bottom: 15px;
+}
+
+/* Sidebar: Search Bar */
+.blog-archive--widgets .widget.widget_search,
+.single-post--widgets .widget.widget_search {
+	padding: 0px !important;
+	background: #FFF;
+}
+
+/* Sidebar: Search Bar */
+.blog-archive--widgets .widget.widget_search .search-bar input[name="s"],
+.single-post--widgets .widget.widget_search .search-bar input[name="s"] {
+	background: #FFF;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* Cars Sidebar: Hide Check */
+.prdctfltr_title_added i.prdctfltr-check {
+	display: none;
+}
+
+/* Cars Sidebar: Top Filter */
+.prdctfltr_topbar {
+	display: inline-block;
+}
+
+/* Cars Sidebar: Top Title Selected Color */
+span.prdctfltr_title_selected {
+	background: #EEE;
+	padding: 3px 6px;
+	margin-right: 10px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* Cars Sidebar: Top Title Selected Remove Previous Styling */
+span.prdctfltr_title_selected:after {
+	display: none;
+}
+
+/* Cars Sidebar: Top Title Selected Remove Next Styling */
+span.prdctfltr_title_selected:before{
+	display: none;
+}
+
+/* Cars Sidebar: Top Title Selected on Hover */
+span.prdctfltr_title_selected:hover {
+	background: #222;
+	color: #FFF;
+}
+
+/* Cars Sidebar: Top Title Selected Icon Color */
+span.prdctfltr_title_selected:hover a.prdctfltr_title_remove i {
+	color: #FFF !important;
+}
+
+/* Cars Sidebar: Slider */
+.pf_rngstyle_thin .irs-slider {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	background: #FFF !important;
+	border: 2px solid #d80707;
+	-webkit-box-shadow: 0px 1px 4px rgba(0,0,0,.3);
+	box-shadow: 0px 1px 4px rgba(0,0,0,.3);
+}
+
+/* Cars Sidebar: Slider */
+.pf_rngstyle_thin .irs-bar {
+	background: #d80707 !important;
+	top: 39px !important;
+	height: 3px !important;
+}
+
+/* Cars Sidebar: Slider */
+.pf_rngstyle_thin .irs-line {
+	background: #EEE !important;
+	height: 3px !important;
+	top: 39px !important;
+}
+
+/* Cars Sidebar: Slider */
+.pf_rngstyle_thin .irs-from, 
+.pf_rngstyle_thin .irs-single, 
+.pf_rngstyle_thin .irs-to {
+	background: #d80707 !important;
+}
+
+/* Cars Sidebar: Remove Bottom Margin */
+.prdctfltr-widget .prdctfltr_add_scroll {
+	margin-bottom: 0px;
+}
+
+/* Cars Sidebar: Border Radius for Widgets */
+.products-archive--widgets.widget-area--skin-background-fill .widget {
+	border-radius: 3px;	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* Cars Sidebar: Bordered Box Styling */
+.widget-area--skin-bordered .widget.prdctfltr-widget {
+	background: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+/* Cars Sidebar: Remove Padding */
+.prdctfltr-widget .prdctfltr_wc .prdctfltr_filter_inner {
+	padding: 0px;
+}
+
+/* Cars Sidebar: Tooltip Position */
+.prdctfltr_tooltip>span:after {
+	bottom: -16px;
+	margin-left: -10px;
+}
+
+/* Cars Sidebar: Tooltip Border Radius and Spacing */
+.prdctfltr_tooltip>span {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 4px 7px;
+}
+
+/* Cars Sidebar: Bottom Spacing */
+.prdctfltr_tooltip {
+	padding-bottom: 8px;
+}
+
+/* Cars Sidebar: Checkbox Styling */
+.prdctfltr_wc.prdctfltr_checkbox .prdctfltr_filter label>span:before {
+	width: 15px !important;
+    height: 15px !important;
+    border-width: 0px !important;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background-color: #eee !important;
+    -webkit-box-shadow: inset 1px 1px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: inset 1px 1px 0px rgba(0, 0, 0, 0.10);
+    margin: 6px 12px 6px 0;
+}
+
+/* Cars Sidebar: Remove Checkbox Styling for Active */
+.prdctfltr_wc.prdctfltr_checkbox .prdctfltr_filter label.prdctfltr_active>span:after {
+	margin: 3px 1px 1px 1px;
+	line-height: 12px !important;
+}
+
+/* Cars Sidebar: Checkbox Selected Background Color */
+.prdctfltr_wc.prdctfltr_checkbox .prdctfltr_filter label.prdctfltr_active>span:before {
+	background-color: #1ac744 !important;
+}
+
+/* Cars Sidebar: Checkbox Selected Tick Color */
+.prdctfltr_wc.prdctfltr_checkbox .prdctfltr_filter label.prdctfltr_active>span:after {
+	color: #fff;
+}
+
+/* Cars Sidebar: Image Checkboxes Default */
+.homepage-car-selector .prdctfltr_terms_customized img {
+	opacity: 1 !important;
+}
+
+/* Cars Sidebar: Image and Text Checkboxes Default */
+.homepage-car-selector .prdctfltr_customize_image_text img {
+	opacity: 1 !important;
+}
+
+/* Cars Sidebar: Checkboxes Spacing */
+.homepage-car-selector .prdctfltr_customize_block {
+	padding: 8px;
+}
+
+.homepage-car-selector .prdctfltr_customize_block .prdctfltr_customize_image {
+	padding: 0px;
+}
+
+/* Cars Sidebar: Image Checkboxes Default */
+.prdctfltr_wc .prdctfltr_terms_customized_image .prdctfltr_add_scroll.prdctfltr_down .prdctfltr_checkboxes label.prdctfltr_active .prdctfltr_customize_image img {
+	opacity: 1;
+}
+
+/* Cars Sidebar: Colorize options */
+.prdctfltr_filter label {
+	color: #666;
+}
+
+/* Cars Sidebar: Colorize options - Active state */
+.prdctfltr_filter label.prdctfltr_active {
+	color: #222;
+}
+
+/* Cars Sidebar: Brands - Remove border */
+.prdctfltr_customize_block {
+	border: none !important;
+}
+
+/* Cars Sidebar: Brands - Logo size */
+.prdctfltr_customize_block .prdctfltr_customize_image,
+.prdctfltr_customize_block .prdctfltr_customize_image img {
+	width: 64px !important;
+	height: auto !important;
+}
+
+/* Cars Sidebar: Brands - Logo Remove Padding from img */
+.prdctfltr_customize_block .prdctfltr_customize_image img {
+	padding: 0px;
+}
+
+/* Cars Sidebar: Brands - Logo Spacing */
+.prdctfltr_customize_block .prdctfltr_customize_image {
+/* 	width: 100%; */
+	padding: 5px;
+	padding-top: 0px;
+	background: transparent;
+}
+
+/* Cars Sidebar Remove Spacing */
+.prdctfltr_customize {
+	margin: 0px
+}
+
+/* Cars Sidebar: Brands - Selected brand */
+.prdctfltr_active .prdctfltr_customize_block {
+	border: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+/* Cars Sidebar: Colors - Change size */
+.prdctfltr_customize_block {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+/* Cars Sidebar: Colors - Change size */
+.prdctfltr_customize_block .prdctfltr_customize_color {
+    width: 29px !important;
+    height: 29px !important;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+/* Cars Sidebar: Colors - White color border */
+.prdctfltr_ft_white .prdctfltr_customize_block .prdctfltr_customize_color {
+	border: 1px solid #CCC;
+}
+
+/* Cars Sidebar: Checkboxes Label Spacing */
+.prdctfltr_checkboxes label {
+	margin-bottom: 0px; 
+}
+
+/* Cars Sidebar: Checkboxes Active Styling */
+.prdctfltr_checkboxes label.prdctfltr_active .prdctfltr_customize_block {
+	padding-top: 0px; 
+}
+
+/* Cars Sidebar: Checkboxes Label Spacing */
+.prdctfltr_checkboxes label.prdctfltr_active .prdctfltr_customize_block .prdctfltr_customize_color {
+	-webkit-box-shadow: inset 0 0 0 2px rgba(0,0,0,0.5);
+	box-shadow: inset 0 0 0 2px rgba(0,0,0,0.5);
+}
+
+/* Cars Sidebar: Show More Button Remove Styling */
+.prdctfltr_checkboxes .pf_more span:before {
+	display: none;
+}
+
+/* Cars Sidebar: Show More Button Remove Text Styling */
+.prdctfltr_checkboxes .pf_more span {
+	text-transform: none !important;
+	color: #666;
+}
+
+/* Cars Sidebar: Show More Button New Style */
+.prdctfltr_checkboxes .pf_more {
+	border-top: 1px dotted #CCC;
+	padding-top: 8px;
+	margin-top: 8px;
+}
+
+/* Cars Sidebar: Show Less Icon */
+.prdctfltr_checkboxes .pf_more.pf_activated span:after {
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+/* Cars Sidebar: Show More Icon */
+.prdctfltr_checkboxes .pf_more span:after {
+	content: "»";
+	display: inline-block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	margin-left: 10px;
+}
+
+/* Cars Sidebar: Top Filter */
+.prdctfltr_wc.prdctfltr_wc_regular {
+	background: #fff !important;
+	-webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+	box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+	padding: 5px 25px;
+	margin-bottom: 0px;
+	border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+/* Cars Sidebar: Top Filter Bottom Spacing */
+.woocommerce .woocommerce-shop-header--columned {
+	margin-bottom: 35px;
+}
+
+/* Cars Sidebar: Top Filter Display Flex */
+.woocommerce .woocommerce-shop-header--columned>div {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	width: 100%;
+}
+
+/* Cars Sidebar: Top Filter Title Spacing */
+.prdctfltr_wc .prdctfltr_filter_title {
+	margin-top: 10px;
+	margin-bottom: 10px !important;
+}
+
+/* Blog Post: Content Side Padding */
+.single-post.single-post--has-sidebar .post {
+	padding: 0 15px;
+}
+
+/* Blog Post: Content Background */
+.single-post .post--column {
+	-webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+	box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+	background: #FFF;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 25px 30px;
+}
+
+/* Blog Post: Next/Prev Top Padding */
+.single-post .post .post-navigation {
+	padding-top: 30px;
+}
+
+/* Blog Post: Next/Prev Top Padding */
+.single-post .comment-form>p.labeled-textarea-row,
+.single-post .comment-form>p.labeled-input-row {
+	background: #FFF;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1);
+	box-shadow: 0px 5px 5px -5px rgba(0,0,0,.1); 
+}
+
+/* Blog Post: Comment Form Width */ 
+p.labeled-input-row.comment-form-author, p.labeled-input-row.comment-form-email {
+	margin-right: 2%;
+}	
+
+/* Blog Post: Comment Form No Margin */ 
+.single-post .comment-form {
+	margin: 0px;
+}
+
+/* Blog Post: Comment Inputs Width */
+.single-post .comment-form>p.labeled-input-row {
+	width: 32% !important;
+	padding: 3px 14px;
+	padding-left: 20px;
+}
+
+/* Blog Post: Comment Cookie Consent */
+.single-post .comment-form>p.comment-form-cookies-consent {
+	width: auto !important;
+	margin-top: 0px;
+}
+
+/* Blog Post: Comment Input Remove Border Bottom */
+.single-post .comment-form>p.labeled-input-row input {
+	border-bottom: none;
+}
+
+/* Blog Post: Comment Textarea */
+.single-post .comment-form>p.labeled-textarea-row textarea {
+	background: transparent;
+	padding: 0px 20px;
+	line-height: 1.5;
+}
+
+/* Blog Post: Comment Input Label Color */
+.single-post .comment-form>p.labeled-input-row label {
+	color: #222;
+}
+
+/* Blog Post: Comment Paragraph Remove Padding */
+.single-post .comment-form>p {
+	padding: 0;
+}
+
+/* Blog Post: Comment Paragraph Remove Top Padding for Logged in Users */
+.single-post .comment-form>p.logged-in-as {
+	margin-top: 0px;
+}
+
+/* Blog Post: Comment Label Padding */
+.single-post .comment-form-comment label {
+	padding: 15px 20px;
+}
+
+/* Blog Post: Comment Submit Button Remove Top Margin */
+.single-post .comment-form>p.form-submit {
+	margin-top: 0px
+}
+
+/* Blog Post: Image Margin */
+.single-post .post--full-width-image .post-image {
+	margin: 0px;
+}
+
+/* Blog Post: Image Border Radius */
+.single-post .post-image a {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	overflow: hidden;
+}
+
+/* Blog Post: Author Info Spacing and Border */
+.single-post .post .post-author {
+	padding-top: 25px;
+	border-top: 1px solid #EEE;
+}
+
+/* Blog Post: Author Info Name Display Inline */
+.single-post .post .author-info--details .author-name em {
+	display: inline-block;
+}
+
+/* Blog Post: Author Info Remove Bottom Spacing */
+.author-info--alignment-bottom.single-post--has-author-info.single-post .post .post-author .author-info {
+	margin-bottom: 0px;
+}
+
+/* Blog Post: Sharing Social Networks */
+.single-post .post .post-share-networks {
+	border-top: 1px solid #EEE;
+	padding: 15px 0;
+	margin: 0px;
+}
+
+/* Blog Post: Sharing Social Networks Line Height */
+.single-post .post .post-share-networks .networks-list, 
+.single-post .post .post-share-networks .share-title {
+	line-height:0;
+}
+
+/* Blog Post: Sharing Social Networks Icon Size */
+.single-post .post .post-share-networks--style-icons a {
+	width: 35px;
+	height: 35px;
+}
+
+/* Blog Post: Comment Reply Connector */
+.single-post .post-comments--list .comment .commenter-image .comment-connector {
+	border: 5px solid #fff;
+	border-right: 0;
+	border-top: 0;
+}
+
+/* Footer: Other Widgets Width */
+.widget-area.widgets--columned-layout.widgets--columns-5>.widget {
+	width: 25%;
+}
+
+/* Footer: First Widget Width */
+.widget-area.widgets--columned-layout.widgets--columns-5>.widget.widget_text:first-child {
+	width: 50%;
+	padding-right: 50px;
+	margin-bottom: 0px;
+}
+
+/* Services: Carousel Navigation */
+.vc_images_carousel .vc_carousel-indicators li {
+	border: 2px solid #FFF !important;
+	background-color: transparent !important;
+}
+
+/* Services: Carousel Navigation */
+.vc_images_carousel .vc_carousel-indicators .vc_active {
+	border: 2px solid #FFF !important;
+	background-color: #FFF !important;
+}
+
+/* Services: Title Display */
+.service-title {
+	display: inline-block;
+}
+
+/* Services: Title Underline */
+.service-title:after {
+	height: 2px !important;
+	width: 100% !important;
+	display:block;
+	background: #DD1F26;
+	content: "";
+}
+
+/* Services: Service Block on Landscape Phone */
+@media screen and (min-width: 468px) and (max-width: 768px) {
+	.service-block .vc_col-sm-6 {
+		width: 50%;
+	} 
+}
+
+/* Contact: Icons */
+.contact-icons {
+	padding: 25px 0;
+}
+
+.contact-form .button strong {
+    color: #fff;
+}
+
+/* Contact: Checkbox */
+.contact-form-privacy-policy label input[type="checkbox"]{
+    background: #EEE;
+    border: none;
+    border-radius: 2px;
+}
+
+/* Footer: Top and Bottom Spacing */
+.site-footer .footer-widgets {
+	margin: 50px 0;
+}
+
+/* Footer: Widget Titles */
+.site-footer .footer-widgets .widget .widgettitle {
+	margin: 0px;
+	border: none;
+	padding-bottom: 5px;
+}
+
+/* Footer: Widget Titles Spacing */
+.site-footer .footer-widgets .widget.widget_nav_menu {
+	margin: 15px 0;
+} 
+
+/* Footer: Widget List Spacing */
+.site-footer .footer-widgets .widget ul li {
+	padding: 3px 0;
+}
+
+/* Footer: Widget List Link Color */
+.site-footer.site-footer-inverted .footer-widgets .widget a{
+	color: #AAA;
+}
+
+/* Footer: Background */
+footer.site-footer-inverted {
+	background: url("https://demo-content.kaliumtheme.com/automotive/wp-content/uploads/2017/11/tire-trace-1.png") bottom right no-repeat;
+	background-color: #1F1F1F !important;
+}
+
+/* Footer: Working Hours Bottom Border */
+.main-footer .footer-widgets .widget .working-hours li {
+	border-bottom: 1px dotted rgba(255,255,255,0.1);
+	padding: 8px 0;
+}
+
+/* Footer: Working Hours - Open */
+.main-footer .footer-widgets .widget .working-hours li span {
+	float: right;
+	background: #DD1F26;
+	color: #FFF;
+	padding: 2px 6px;
+	clear: both;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* Footer: Working Hours - Closed */
+.main-footer .footer-widgets .widget .working-hours li span.closed {
+	background: #3e3e3e;
+}
+
+/* Footer: Widgets Left Spacing */
+.site-footer .footer-widgets .widget.widget_nav_menu:nth-child(2n+2) {
+	padding-left:80px;
+}
+
+/* Footer: Widgets Paragraph Color */
+.site-footer.site-footer-inverted .footer-widgets .widget p {
+	color: #999;
+}
+
+/* Footer: Widgets Link Hover Color */
+.site-footer .footer-widgets .widget.widget_nav_menu ul li a:hover {
+	color: #FFF !important;
+}
+
+/* Footer: Widgets Link Hover Underline */
+.site-footer .footer-widgets .widget.widget_nav_menu ul li a:hover:after {
+	height: 1px !important;
+	width: 100% !important;
+	display: block;
+	background: #DD1F26;
+	content: "";
+}
+
+/* Footer: Bottom Footer Spacing */
+.site-footer.footer-bottom-horizontal .footer-bottom-content {
+	padding: 20px 0; 
+}
+
+/* Footer: Bottom Footer Social Networks Remove Background */
+.site-footer .social-networks.rounded li a {
+	background: transparent;
+}
+
+/* Footer: Bottom Footer Background Color */
+footer.site-footer-inverted .footer-bottom { 
+	background-color: #222;
+}
+
+/* Footer: Bottom Footer Hide Border */
+footer.site-footer-inverted hr {
+	display: none;
+}
+
+/* Footer: Bootom Footer Link Color and Hover */
+.site-footer .footer-bottom a {
+    color: #fff;
+}
+
+.site-footer .footer-bottom a:hover {
+    color: #fff;
+}
+
+.site-footer .footer-bottom a:hover:after {
+	height: 1px !important;
+    width: 100% !important;
+    display: block;
+    background: #DD1F26;
+    content: "";
+}
+
+/* Product Page: Comments Area */
+@media screen and (min-width: 992px) {
+	.woocommerce .woocommerce-Reviews .comment-form .comment-form-author, .woocommerce .woocommerce-Reviews .comment-form .comment-form-email {
+	    width: 49%;
+	}
+	.woocommerce .woocommerce-Reviews .comment-form .comment-form-email {
+	    margin-right: 0px;
+	}
+}
+
+html input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #eee inset;
+    box-shadow: 0 0 0 1000px #eee inset;
+}
+
+.prdctfltr_terms_customized_image .prdctfltr_customize {
+	margin-right: 0px !important;
+}
+
+/* Fix valid for Internet Explorer only */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   .woocommerce .products .product .item-info .item-info-row {
+	   display: block;
+	}
+}
+
+.prdctfltr_woocommerce .prdctfltr_filter .prdctfltr_search_terms .prdctfltr_search_terms_input {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+/* XS: Mobile devices */
+@media screen and (max-width: 480px){
+
+    /* About: Team Images */
+    .team-image img {
+        width: 100%;
+    }
+
+    /* Homepage: Client Logos Width */
+    .logos-holder .client-logos-col {
+        width: 33.33333% !important;
+    }
+
+    /* Homepage: Car Filter: */
+    .homepage-car-selector {
+        margin-top: 0px
+    }
+
+    /* Homepage: Car Filter Button Position */
+    .homepage-filter .prdctfltr_wc .prdctfltr_buttons {
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 100%;
+    }
+
+    /* Homepage: Car Filter */
+    .homepage-filter .prdctfltr_wc .prdctfltr_buttons a.button.prdctfltr_woocommerce_filter_submit {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Homepage: Car Filter */
+    .homepage-filter {
+        margin-top: 0;
+        padding: 0px;
+        border-radius: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+    }
+
+    /* Homepage: Car Filter Title Bottom Margin */
+    .homepage-filter .section-title {
+        margin-bottom: 20px;
+    }
+
+    /* Homepage: Blog Posts More Link */
+    .more-link {
+        position: relative;
+        top: 0px;
+        right: 0px;
+        min-width: auto;
+        padding: 0px;
+    }
+
+    /* Homepage: Blog Posts More Link */
+    .show-more .reveal-button {
+        width: 100%;
+    }
+
+    /* Homepage: Blog Posts More Link */
+    .show-more {
+        padding: 0px;
+    }
+
+    /* Homepage: Remove Bottom Spacing From Posts */
+    .wpb_wrapper .lab-blog-posts .blog-post-column {
+        margin-bottom: 20px;
+    }
+
+    /* Homepage: Steps */
+    .homepage-steps {
+        padding: 0px;
+    }
+
+    /* Contact: Icons */
+    .contact-icons {
+        padding: 0;
+    }
+
+    /* Contact: Contact Form Spacing */
+    .contact-row.vc_row-has-fill>.vc_column_container>.vc_column-inner {
+        padding-top: 15px;
+    }
+
+    /* Contact: Contact Form Spacing */
+    .wpb_wrapper .lab-contact-form {
+        margin-bottom: 0px;
+    }
+
+    /* Contact: Submit Button */
+    .contact-form .button {
+        width: 100%;
+    }
+
+    /* Footer: Other Widgets Width */
+    .widget-area.widgets--columned-layout.widgets--columns-5>.widget {
+        width: 50%;
+    }
+
+    /* Footer: First Widget Width */
+    .widget-area.widgets--columned-layout.widgets--columns-5>.widget.widget_text:first-child {
+        width: 100%;
+        padding-right: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* Footer: Widgets Left Spacing */
+    .site-footer .footer-widgets .widget.widget_nav_menu:nth-child(2n+2) {
+        padding-left: 15px;
+    }
+
+    /* Blog Post: Featured Image Top Spacing */
+    .single-post .single-post {
+        padding-top: 20px;
+    }
+
+    /* Blog Post: Featured Image Bottom Image */
+    .single-post .post-image {
+        margin-bottom: 20px;
+    }
+
+    /* Blog Post: Featured Image Bottom Image */
+    .single-post .post .post-meta-only .post-meta {
+        margin-bottom: 15px;
+    }
+
+    /* Blog: Post Spacing */
+    .blog-posts>.loading-posts, .blog-posts>li {
+        margin-bottom: 20px;
+    }
+
+    /* Cars: Car Spacing */
+    .woocommerce .product.catalog-layout-default {
+        margin-bottom: 20px;
+    }
+
+    /* Blog Post: Comment Spacing */
+    .contact-form .form-group,
+    .single-post .comment-form>p.labeled-input-row {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    /* Blog Post: Comment Spacing */
+    .single-post .post-comments+.post-comment-form .comment-respond {
+        padding-top: 0px;
+    }
+
+    /* Car: Images Spacing */
+    .woocommerce .single-product .kalium-woocommerce-product-gallery .thumbnails {
+        margin-bottom: 20px;
+    }
+
+    /* Car: Image Spacing */
+    .single-product .woocommerce.page-container {
+        margin-top: 20px;
+    }
+
+    /* Car: Top Spacing */
+    .woocommerce .woocommerce-tabs {
+        padding-top: 0px;
+    }
+
+    /* Car: Tabs Remove Border */
+    .woocommerce .woocommerce-tabs .tabs {
+        border: none;
+    }
+
+    /* Footer: Top and Bottom Spacing */
+    .site-footer .footer-widgets {
+        margin: 35px 0;
+    }
+}
+
+/* SM: Mobile and tablet devices */
+@media screen and (min-width: 768px) {
+
+    /* Homepage: Car Filter:  */
+    .homepage-car-selector {
+        margin-top: 0px !important;
+    }
+
+    /* Homepage: Car Filter */
+    .homepage-filter {
+        border-radius: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+    }
+}
+
+/* MD: Tablet and desktop devices */
+@media screen and (min-width: 992px) {
+
+    /* Homepage: Car Filter:  */
+    .homepage-car-selector {
+        margin-top: 0px !important;
+    }
+
+    /* Homepage: Car Filter */
+    .homepage-filter {
+        border-radius: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+    }
+}
+/* ===========================================================
+Custom modification only for AUTOMOTIVE Demo - END
+=========================================================== */
+
+/* ===========================================================
+User CSS modifications
+=========================================================== */
+.example {
+ 	color: red !important;
+}
